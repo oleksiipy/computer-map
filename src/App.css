@@ -1,0 +1,33 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-primary);
+}
+
+.app-main {
+  flex: 1;
+  padding: 1.5rem 0;
+}
+
+.app-page {
+  width: 100%;
+}
+
+.app-footer {
+  text-align: center;
+  padding: 1.5rem;
+  border-top: 1px solid rgba(79, 108, 247, 0.08);
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.app-footer p {
+  color: var(--text-muted);
+}
+
+@media (max-width: 640px) {
+  .app-main {
+    padding: 0.75rem 0;
+  }
+}
