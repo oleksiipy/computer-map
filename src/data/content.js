@@ -4,7 +4,7 @@ const content = {
     title: 'Monitor',
     category: 'output',
     icon: '🖥️',
-    image: '/images/monitor.png',
+    image: '/images/monitor.jpg',
     shortDesc: 'Výstupné zariadenie na zobrazovanie informácií v podobe obrazu a textu.',
     explanation: 'Monitor je výstupné zariadenie, ktoré zobrazuje informácie z počítača na obrazovke. Funguje podobne ako televízor — prevádza digitálne signály z grafickej karty na obraz, ktorý vidíš. Moderné monitory využívajú LCD alebo OLED technológiu, vďaka ktorej sú tenké a majú vydarený obraz.',
     keyTerms: [
