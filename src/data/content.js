@@ -4,6 +4,7 @@ const content = {
     title: 'Monitor',
     category: 'output',
     icon: '🖥️',
+    image: '/images/monitor.png',
     shortDesc: 'Výstupné zariadenie na zobrazovanie informácií v podobe obrazu a textu.',
     explanation: 'Monitor je výstupné zariadenie, ktoré zobrazuje informácie z počítača na obrazovke. Funguje podobne ako televízor — prevádza digitálne signály z grafickej karty na obraz, ktorý vidíš. Moderné monitory využívajú LCD alebo OLED technológiu, vďaka ktorej sú tenké a majú vydarený obraz.',
     keyTerms: [
@@ -24,6 +25,7 @@ const content = {
     title: 'Systémová jednotka',
     category: 'processing',
     icon: '🖥️',
+    image: '/images/systemUnit.jpg',
     shortDesc: 'Hlavný blok počítača, v ktorom sú umiestnené všetky dôležité komponenty.',
     explanation: 'Systémová jednotka (skrinia) je „srdce" počítača. Obsahuje procesor (CPU), operačnú pamäť (RAM), pevný disk, základnú dosku a ďalšie komponenty. Všetky výpočty a spracovanie dát prebiehajú práve tu. Môže mať tvar veže (tower) alebo byť zabudovaná za monitorom (all-in-one).',
     keyTerms: [
@@ -40,6 +42,7 @@ const content = {
     title: 'Procesor (CPU)',
     category: 'processing',
     icon: '🧠',
+    image: '/images/cpu.jpg',
     shortDesc: '„Mozog" počítača — vykonáva všetky výpočty a spracúva inštrukcie.',
     explanation: 'CPU (Central Processing Unit) je hlavný procesor počítača. Vykonáva inštrukcie programov — všetky výpočty, rozhodnutia a operácie prebiehajú v ňom. Rýchlosť CPU sa meria v gigahertzoch (GHz). Moderné procesory majú viac jadier, takže môžu spracúvať viac úloh naraz.',
     keyTerms: [
@@ -60,6 +63,7 @@ const content = {
     title: 'Operačná pamäť (RAM)',
     category: 'memory',
     icon: '💾',
+    image: '/images/ram.jpg',
     shortDesc: 'Dočasná pamäť, ktorá uchováva dáta, s ktorými procesor práve pracuje.',
     explanation: 'RAM (Random Access Memory) je dočasná pamäť počítača. Keď otvoríš program, jeho dáta sa načítajú z pomalého disku do rýchlej RAM, aby k nim procesor mohol rýchlo pristupovať. Po vypnutí počítača sa obsah RAM vymaže — preto je dôležité ukladať prácu.',
     keyTerms: [
@@ -80,6 +84,7 @@ const content = {
     title: 'Pamäťové úložisko',
     category: 'storage',
     icon: '📀',
+    image: '/images/storage.jpg',
     shortDesc: 'Zariadenie na dlhodobé ukladanie dát — programov, dokumentov a systému.',
     explanation: 'Pevný disk (HDD) alebo SSD slúži na trvalé ukladanie dát. Na rozdiel od RAM, dáta na disku zostanú aj po vypnutí počítača. SSD disky sú oveľa rýchlejšie ako klasické HDD, pretože nemajú pohyblivé časti a používajú flash pamäť.',
     keyTerms: [
@@ -100,6 +105,7 @@ const content = {
     title: 'Grafická karta (GPU)',
     category: 'processing',
     icon: '🎮',
+    image: '/images/gpu.jpg',
     shortDesc: 'Spracúva grafiku — zobrazuje obraz na monitore a urýchľuje 3D výpočty.',
     explanation: 'GPU (Graphics Processing Unit) je špecializovaný procesor na spracovanie grafiky. Zaisťuje plynulé zobrazovanie hier, videí a animácií. Moderné graficke karty majú vlastnú pamäť (VRAM) a dokážu spracúvať tisíce operácií súčasne — preto sa používajú aj na strojové učenie a ťažbu kryptomien.',
     keyTerms: [
@@ -120,6 +126,7 @@ const content = {
     title: 'Klávesnica',
     category: 'input',
     icon: '⌨️',
+    image: '/images/keyboard.jpg',
     shortDesc: 'Vstupné zariadenie na zadávanie textu a príkazov do počítača.',
     explanation: 'Klávesnica je najpoužívanejšie vstupné zariadenie. Máviac ako 100 kláves rozdelených do skupín: alfanumerické (písmená a čísla), funkčné (F1–F12), špeciálne (Enter, Shift, Ctrl) a klávesy pre pohyb kurzora. Stlačením klávesu sa odošle signál do počítača, ktorý ho preloží na znak alebo akciu.',
     keyTerms: [
@@ -140,6 +147,7 @@ const content = {
     title: 'Myš',
     category: 'input',
     icon: '🖱️',
+    image: '/images/mouse.jpg',
     shortDesc: 'Polohové vstupné zariadenie na ovládanie kurzora na obrazovke.',
     explanation: 'Počítačová myš je polohové zariadenie, ktoré premiestňuje kurzor na obrazovke. Pohyb myši po podložke sa prekladá na pohyb kurzora. Moderné myši majú optický alebo laserový senzor, koliesko na skrolovanie a viacero tlačidiel na prispôsobenie.',
     keyTerms: [
@@ -160,6 +168,7 @@ const content = {
     title: 'Von Neumannova architektúra',
     category: 'architecture',
     icon: '📐',
+    image: '/images/vonNeumann.png',
     shortDesc: 'Základný model architektúry počítača — oddelenie pamäte a procesora.',
     explanation: 'John von Neumann navrhol v roku 1945 model počítača, v ktorom sú dáta aj program uložené v tej istej pamäti. Tento model pozostáva z piatich hlavných častí: aritmeticko-logická jednotka (ALU), riadiaca jednotka, pamäť, vstupné a výstupné zariadenia. Väčšina dnešných počítačov stále funguje podľa tohto princípu.',
     keyTerms: [
@@ -176,6 +185,7 @@ const content = {
     title: 'Hardvér',
     category: 'concept',
     icon: '🔧',
+    image: '/images/hardware.jpg',
     shortDesc: 'Všetky fyzické časti počítača, ktoré môžeš vidieť a dotknúť sa ich.',
     explanation: 'Hardvér zahŕňa všetky hmatateľné časti počítača — monitor, klávesnicu, myš, systémovú jednotku, procesor, pamäť a ďalšie. Na rozdiel od softvéru, hardvér je fyzický a môže sa pokaziť mechanicky. Bez hardvéru by softvér nemal na čom bežať.',
     keyTerms: [
@@ -192,6 +202,7 @@ const content = {
     title: 'Softvér',
     category: 'concept',
     icon: '💿',
+    image: '/images/software.png',
     shortDesc: 'Programy a inštrukcie, ktoré hovoria hardvéru, čo má robiť.',
     explanation: 'Softvér je nehmotná časť počítača — programy, aplikácie a operačné systémy. Bez softvéru by bol hardvér len kus kovu a plastu. Delí sa na systémový softvér (Windows, Linux), aplikačný softvér (hry, prehliadače) a programovací softvér (Python, Visual Studio).',
     keyTerms: [
@@ -208,6 +219,7 @@ const content = {
     title: 'Vstupné zariadenia',
     category: 'concept',
     icon: '📥',
+    image: '/images/inputDevices.jpg',
     shortDesc: 'Zariadenia, ktoré vkladajú dáta do počítača — od človeka k stroju.',
     explanation: 'Vstupné zariadenia prenášajú informácie od používateľa do počítača. Patria sem klávesnica, myš, touchpad, skener, mikrofón, webkamera a ďalšie. Každé vstupné zariadenie prevádza jeden typ informácie (text, obraz, zvuk) na digitálny signál, ktorý počítač dokáže spracovať.',
     keyTerms: [
@@ -224,6 +236,7 @@ const content = {
     title: 'Výstupné zariadenia',
     category: 'concept',
     icon: '📤',
+    image: '/images/outputDevices.jpg',
     shortDesc: 'Zariadenia, ktoré zobrazujú dáta z počítača — od stroju k človeku.',
     explanation: 'Výstupné zariadenia prenášajú informácie z počítača k používateľovi. Najdôležitejším je monitor, ďalej sem patrí tlačiareň, reproduktor, sluchátka a projektor. Výstup môže byť vizuálny (obraz, text), zvukový alebo hmatateľný (vytlačený dokument).',
     keyTerms: [
@@ -240,6 +253,7 @@ const content = {
     title: 'Tlačiareň',
     category: 'output',
     icon: '🖨️',
+    image: '/images/printer.jpg',
     shortDesc: 'Výstupné zariadenie, ktoré prevádza digitálne dokumenty na papier.',
     explanation: 'Tlačiareň je výstupné zariadenie, ktoré vytvára hmatateľnú kópiu digitálneho dokumentu na papieri. Rozdeľujú sa na laserové (rýchle, pre kanceláriu) a atramentové (kvalitné farby, pre domácnosť). 3D tlačiarne dokážu vytvoriť trojrozmerný objekt z plastu alebo kovu.',
     keyTerms: [

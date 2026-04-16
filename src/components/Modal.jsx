@@ -49,6 +49,17 @@ export default function Modal({ data, onClose }) {
               </div>
             </div>
 
+            {data.image && (
+              <div className="modal-image-wrapper">
+                <img
+                  src={data.image}
+                  alt={data.title}
+                  className="modal-image"
+                  loading="lazy"
+                />
+              </div>
+            )}
+
             <div className="modal-body">
               <p className="modal-description">{data.shortDesc}</p>
 
